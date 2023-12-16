@@ -1,0 +1,21 @@
+{
+  "name": "orientdb_fastify",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fastify start -l info src/app.js"
+  },
+  "author": "Mohamamdreza-Farkhondeh",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.22.2",
+    "fastify-cli": "^5.8.0",
+    "orientjs": "^3.0.11"
+  }
+}
